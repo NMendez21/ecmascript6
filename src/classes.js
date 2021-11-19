@@ -24,7 +24,7 @@ class Usuario{
 class Estudiante extends Usuario{
 
 	constructor(nombre,edad,correo,carrera){
-		super(nombre, edad, correo)
+		super(nombre, edad, correo);
 		this.carrera = carrera;
 	}
 
@@ -40,14 +40,11 @@ class Estudiante extends Usuario{
 		`;
 	}
 
-
-
 }
 
 const nicolas = new Usuario('nicolas',25,'mendez@gmail.com');
 
 document.write(nicolas.mostrarInfo());
-
 
 const esteban = new Estudiante('esteban',21,'esteban@gmail.com','Mecatronica');
 
