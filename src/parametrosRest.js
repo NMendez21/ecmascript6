@@ -12,3 +12,12 @@ const funcionSpecial = (...datos) => {
 const arreglo = ['nicolas','mendez','123'];
 
 funcionSpecial(...arreglo);
+
+
+
+const parametrosRest = (...goles) => {
+	console.log(goles);
+}
+
+
+parametrosRest('El Salvador',4);

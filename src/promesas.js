@@ -32,3 +32,10 @@ const resultado = new Promise((resolve,reject) => {
 resultado.then(() => {alert("ok");});
 
 resultado.catch(() => {alert("not ok");});
+
+const ejemplo_promesa = new Promise((resolve,reject)=>{
+	resolve('todo blue');
+});
+
+ejemplo_promesa.then((mensaje)=>{console.log(mensaje);});
+ejemplo_promesa.catch(()=>{console.log('todo mal');});
